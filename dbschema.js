@@ -1,11 +1,48 @@
 let db = {
-    bounties: [
-        {
-          userHandle: 'user',
-          body: 'help me',
-          createdAt: '2017-01-01T00:00:00.000Z',
-          likeCount: 5,
-          commentCount: 2
-        }
-    ]
-}
+  users: [{
+    userId: 'asdfaskldf',
+    email: 'user@email.com',
+    handle: 'user',
+    createdAt: '2020-01-15T10:59:52.798Z',
+    imageUrl: 'image/asfasd/asdfasd',
+    bio: 'Hello, my name is user',
+    website: 'http://user.com',
+    location: 'Palo Alto, CA'
+  }],
+  bounties: [{
+    userHandle: 'user',
+    body: 'help me',
+    createdAt: '2017-01-01T00:00:00.000Z',
+    likeCount: 5,
+    commentCount: 2
+  }],
+  comments: [{
+    userHandle: 'user',
+    bountyId: 'asdlkfjas;ltjkalthaw',
+    body: 'great job!',
+    createdAt: '2017-01-01T00:00:00.'
+  }]
+};
+
+const userDetails = {
+  // Redux data
+  credentials: {
+    userId: 'N43KJ5H43KJHREW4J5H3JWMERHB',
+    email: 'user@email.com',
+    handle: 'user',
+    createdAt: '2019-03-15T10:59:52.798Z',
+    imageUrl: 'image/dsfsdkfghskdfgs/dgfdhfgdh',
+    bio: 'Hello, my name is user, nice to meet you',
+    website: 'https://user.com',
+    location: 'Lonodn, UK'
+  },
+  likes: [{
+      userHandle: 'user',
+      screamId: 'hh7O5oWfWucVzGbHH2pa'
+    },
+    {
+      userHandle: 'user',
+      screamId: '3IOnFoQexRcofs5OhBXO'
+    }
+  ]
+};
