@@ -21,6 +21,14 @@ let db = {
     bountyId: 'asdlkfjas;ltjkalthaw',
     body: 'great job!',
     createdAt: '2017-01-01T00:00:00.'
+  }],
+  notifications: [{
+    recipient: 'user',
+    sender: 'john',
+    read: 'true | false',
+    bountyId: 'asdlkfjas;ltjkalthaw',
+    type: 'like | comment',
+    createdAt: '2017-01-01T00:00:00.';
   }]
 };
 
